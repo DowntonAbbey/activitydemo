@@ -24,7 +24,6 @@ public class ActivityConsumerServiceImpl implements ActivityConsumerService {
 
     private String testStr1;
 
-    private String test2;
 
     @Override
     public boolean startActivityDemo() {
