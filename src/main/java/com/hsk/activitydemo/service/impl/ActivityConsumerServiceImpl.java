@@ -22,6 +22,8 @@ public class ActivityConsumerServiceImpl implements ActivityConsumerService {
     @Autowired
     private TaskService taskService;
 
+    private String testStr;
+
     @Override
     public boolean startActivityDemo() {
         System.out.println("method startActivityDemo begin....");
