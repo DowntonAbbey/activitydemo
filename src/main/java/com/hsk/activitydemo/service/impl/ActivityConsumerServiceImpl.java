@@ -22,7 +22,7 @@ public class ActivityConsumerServiceImpl implements ActivityConsumerService {
     @Autowired
     private TaskService taskService;
 
-    private String testStr;
+    private String testStr1;
 
     @Override
     public boolean startActivityDemo() {
